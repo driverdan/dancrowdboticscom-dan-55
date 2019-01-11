@@ -3,6 +3,8 @@ FROM alpine:latest
 
 # Install system dependencies
 RUN apk add --no-cache --update \
+  libjpeg-devel \
+  zlib-devel \
   bash \
   gcc \
   musl-dev \
